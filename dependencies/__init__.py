@@ -1,0 +1,1 @@
+from .autenticacao import get_usuario_atual

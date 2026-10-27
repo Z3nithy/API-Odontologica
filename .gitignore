@@ -1,0 +1,26 @@
+# Local environment files; keep only the template in version control.
+.env
+.env.*
+!.env.example
+
+# Virtual environments and Python cache.
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Local databases and SQLite sidecar files.
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+
+# Editor, operating system, and runtime files.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log

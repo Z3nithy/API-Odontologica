@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+SQLAlchemy
+python-jose
+pwdlib[argon2]
+python-dotenv
+email-validator
